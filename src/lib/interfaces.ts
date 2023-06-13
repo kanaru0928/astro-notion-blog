@@ -265,3 +265,8 @@ export interface Mention {
 export interface Reference {
   Id: string
 }
+
+export interface Profile {
+  Name: string
+  IconSrc: FileObject
+}
